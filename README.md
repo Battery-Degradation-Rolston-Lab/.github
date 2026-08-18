@@ -1,36 +1,20 @@
-BatteryML
-
-Machine Learning for Battery Degradation
-Rolston Lab – Arizona State University
-
-BatteryML is an early-stage research project focused on applying machine learning methods to battery data in order to better understand degradation mechanisms and predict battery health.
-
-The project is being developed in the Rolston Lab at Arizona State University, which studies reliability and materials science challenges in energy technologies such as photovoltaics and batteries.
-
-Goals
-
-• Explore machine learning approaches for battery diagnostics
-• Analyze battery cycling and electrochemical data
-• Develop models for battery degradation and health prediction
-• Build reproducible pipelines for battery data analysis
-
-Scope
-
-BatteryML aims to provide tools and workflows for:
-
-• Battery dataset processing
-• Feature extraction from cycling and impedance data
-• Machine learning model experimentation
-• Visualization and benchmarking of battery health metrics
-
-Status
-
-🚧 This repository is currently in early development.
-Code, datasets, and documentation will be added as the project evolves.
-
-Lab
-
 Rolston Lab
+
+Perovskite Photovoltaics & Battery Reliability
 Arizona State University
 
-https://rolston.lab.asu.edu/
+The Rolston Lab studies reliability and materials science challenges in energy technologies,
+across both photovoltaics and batteries. This organization holds the lab's open code:
+measurement and automation tools, data pipelines, and machine learning work built around our
+own experimental data.
+
+Research areas
+- Perovskite photovoltaics: durability, processing, and characterization of perovskite solar
+  cells, including automated device measurement and impedance-based diagnostics.
+- Lithium-ion batteries: degradation and health prediction from cycling and EIS data, with
+  reproducible pipelines from raw instrument files through to trained models.
+
+Website: https://rolston.lab.asu.edu/
+GitHub:  https://github.com/rolston-lab-asu
+
+Much of this code is in active development and written alongside ongoing experiments.

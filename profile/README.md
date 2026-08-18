@@ -1,7 +1,7 @@
-# BatteryML
+# Rolston Lab
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=28&duration=2800&pause=900&color=0E7490&center=true&vCenter=true&width=980&lines=Machine+Learning+for+Battery+Degradation;Battery+Diagnostics+from+Cycling+and+EIS+Data;Rolston+Lab+%7C+Arizona+State+University" alt="BatteryML animated intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=28&duration=2800&pause=900&color=0E7490&center=true&vCenter=true&width=980&lines=Perovskite+Photovoltaics+%26+Battery+Reliability;Machine+Learning+for+Energy+Materials;Rolston+Lab+%7C+Arizona+State+University" alt="Rolston Lab animated intro" />
 </p>
 
 <p align="center">
@@ -11,38 +11,41 @@
   <a href="https://rolston.lab.asu.edu/">
     <img src="https://img.shields.io/badge/Website-rolston.lab.asu.edu-0F766E?style=for-the-badge" alt="Rolston Lab website" />
   </a>
-  <img src="https://img.shields.io/badge/Status-Early%20Development-F59E0B?style=for-the-badge" alt="Status" />
 </p>
 
-BatteryML is an early-stage research initiative in the Rolston Lab at Arizona State University focused on applying machine learning to battery data to understand degradation and predict battery health.
+The Rolston Lab at Arizona State University studies reliability and materials science
+challenges in energy technologies, across both photovoltaics and batteries. This organization
+holds the lab's open code: measurement and automation tools, data pipelines, and machine
+learning work built around our own experimental data.
 
-## Current Active Project
+## Research areas
 
-Using machine learning to analyze electrochemical impedance spectroscopy (EIS) data for battery degradation diagnostics and health prediction.
+**Perovskite photovoltaics.** Durability, processing, and characterization of perovskite solar
+cells, including automated device measurement and impedance-based diagnostics.
 
-## Goals
+**Lithium-ion batteries.** Degradation and health prediction from cycling and electrochemical
+impedance spectroscopy (EIS) data, with an emphasis on reproducible pipelines from raw
+instrument files through to trained models.
 
-- Explore machine learning methods for battery diagnostics
-- Analyze battery cycling and electrochemical data
-- Develop models for battery degradation and health prediction
-- Build reproducible pipelines for battery data analysis
+The two areas share a lot of method. Impedance spectroscopy, accelerated ageing, and the
+data-analysis tooling built for one usually transfers to the other.
 
-## Scope
+## Selected projects
 
-BatteryML is building tools and workflows for:
+| Project | Area | What it is |
+|---|---|---|
+| [PixelMux](https://github.com/rolston-lab-asu/PixelMux) | Solar | PyQt5 GUI for automated multi-pixel solar cell IV characterization, driving a Keithley 2460 SMU and a Numato 16-channel relay |
+| [Perovskite-EIS](https://github.com/rolston-lab-asu/Perovskite-EIS) | Solar | Impedance analysis for perovskite devices |
+| [Battery-Data-Visualizer](https://github.com/rolston-lab-asu/Battery-Data-Visualizer) | Battery | Single-file browser viewer for BioLogic EC-Lab `.mpt` exports: impedance plots, per-cycle trends, and Excel export |
+| [LIB-EIS-ML](https://github.com/rolston-lab-asu/LIB-EIS-ML) | Battery | Molicel battery degradation prediction using machine learning |
+| [BO-for-Energy-material](https://github.com/rolston-lab-asu/BO-for-Energy-material) | Both | Bayesian optimization applied to energy materials |
 
-- Battery dataset processing
-- Feature extraction from cycling and impedance data
-- Machine learning model experimentation
-- Visualization and benchmarking of battery health metrics
+Other repositories in this organization hold work in progress and forks used by the lab.
 
-## About The Lab
-
-Rolston Lab studies reliability and materials science challenges in energy technologies, including photovoltaics and batteries.
+## About
 
 - Website: https://rolston.lab.asu.edu/
 - GitHub: https://github.com/rolston-lab-asu
 
-## Development Status
-
-This work is in active early development. Code, datasets, and documentation continue to expand as projects progress.
+Much of this code is in active development and written alongside ongoing experiments, so
+interfaces and structure change as projects progress.
